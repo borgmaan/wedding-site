@@ -100,7 +100,7 @@ hr{
 }
 
 .navbar-default .navbar-toggle {
-	border-color: #D32020;
+	border-color: #7E7EE5;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -108,15 +108,15 @@ hr{
 }
 
 .navbar-toggle{
-	background:#cb1e08;
+	background:#4747DA;
 }
 
 .navbar-toggle:hover{
-	background:#b41a06 !important;
+	background: #7E7EE5 !important;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color: #e9331b;
+	border-color: #7E7EE5;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -324,6 +324,25 @@ hr{
 	margin-top:10px;
 }
 
+/* Registrty */
+
+.reg{
+	text-align:center;
+}
+
+.reg p{
+	font-family: 'Droid Serif', serif;
+	font-style:italic;
+	font-size:15px;
+	line-height:30px;
+	color:#666;
+	text-align: center;
+	width: 550px;
+	float: none;
+    margin: 0 auto;
+}
+
+
 /* RSVP */
 
 .rsvp .heart{
@@ -384,7 +403,7 @@ hr{
 	bottom: 0px;
 	right: 0px;
 	z-index: 104400;
-	background: #fa3031;
+	background: #4747DA;
 }
 
 .totop a, .totop a:visited, .totop a:hover{
