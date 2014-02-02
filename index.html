@@ -24,9 +24,9 @@
 		<link href="css/font-awesome.min.css" rel="stylesheet">		
 		<!-- Custom CSS -->
 		<link href="css/style.css" rel="stylesheet">
-		
+
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="#">
+		<link rel="icon" type="image/png" href="img/Heart_Icon_Deselected.png">
 	</head>
 	
 	<body>
@@ -69,7 +69,7 @@
 							<div class="signal"><i class="icon-signal"></i>	 <span>Marriage On</span></div>
 							<h1>We're<br> 
 								getting married!</h1>
-							<p>That's right, we're doing it. And it's going to be an awesome party. This site will serve as the central information
+							<p>That's right, we're doing it - and it's going to be an awesome party. This site will serve as the central information
 								hub for all things wedding related. Find links to venue information, our gift registry, some fun photos and an online RSVP option in the navbar above.</p>
 						</div>
 					</div>
@@ -80,10 +80,33 @@
 						</div>
 					</div>
 				</div>
-				<a name="about" id="about"></a>
 			</div>
 		</div>
 		<!-- Main Ends -->
+
+	
+		<!-- Countdown Starts -->
+		<div class="timer-area">
+			<ul id="countdown">
+				<li>
+					<span class="days">00</span>
+					<p class="timeRefDays">days</p>
+				</li>
+				<li>
+					<span class="hours">00</span>
+					<p class="timeRefHours">hours</p>
+				</li>
+				<li>
+					<span class="minutes">00</span>
+					<p class="timeRefMinutes">minutes</p>
+				</li>
+				<li>
+					<span class="seconds">00</span>
+					<p class="timeRefSeconds">seconds</p>
+				</li>
+			</ul>
+			<a name="about" id="about"></a>
+		</div>
 		
 		<!-- About Starts -->
 		<div class="about">
@@ -95,8 +118,7 @@
 						</div>
 						<div class="bor"></div>
 						
-						<p class="about-para text-center">The happy couple have been together since Fall 2011. The two spend their time together
-						cooking, camping, and loving their golden retriever puppy, Ike.</p>
+						<p class="about-para text-center">The happy couple have been together since Fall 2011. Audrey & Andrew like spending their time together cooking, camping, and spending too much time with their puppy, Ike.</p>
 						<div class="bor"></div>
 					</div>
 				</div>
@@ -149,10 +171,19 @@
 							  <img src="img/2.jpg" alt="" class="img-responsive" />
 							</li>
 							<li>
+							  <img src="img/5.jpg" alt="" class="img-responsive" />
+							</li>
+							<li>
 							  <img src="img/3.jpg" alt="" class="img-responsive" />
 							</li>
 							<li>
 							  <img src="img/4.jpg" alt="" class="img-responsive" />
+							</li>
+							<li>
+							  <img src="img/6.jpg" alt="" class="img-responsive" />
+							</li>
+							<li>
+							  <img src="img/7.jpg" alt="" class="img-responsive" />
 							</li>
 						  </ul>
 						</div>
@@ -195,6 +226,7 @@
 								(616) 844-7210
 							</p>
 							<a href="https://www.google.com/maps/preview#!q=Camp+Blodgett&data=!1m4!1m3!1d381168!2d-85.9698027!3d42.9396987!4m51!2m11!1m10!1s0x8819862ac772ecd3%3A0xbe46660e82cb6de3!3m8!1m3!1d5890611!2d-86.2705534!3d45.0010904!3m2!1i1436!2i783!4f13.1!5m38!1m37!1scamp+blodgett!4m8!1m3!1d5890611!2d-86.2705534!3d45.0010904!3m2!1i1436!2i783!4f13.1!10b1!19m6!1e1!1e2!1e9!1e10!1e12!4smaps_sv.tactile!20m13!1e1!1e2!1e3!1e4!1e5!1e9!1e10!1e11!1e12!2m2!1i203!2i100!5smaps_sv.tactile!26m4!1e12!1e13!1e3!4smaps_sv.tactile" target="_blank">Get Directions</a>
+							 <img src="img/site-view.jpg" alt="" class="img-responsive"/>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-4">
@@ -221,7 +253,6 @@
 							<a href="#">Get Direction</a>
 							<hr>
 							 <h3><i class="icon-truck"></i> Reception</h3>
-							 <img src="img/car.jpg" alt="" class="img-responsive"/>
 							<a href="#">Royal Church</a>
 							<p>12, New Charka Road
 								New York City, NY 43423
@@ -330,18 +361,41 @@
 
 		
 		<!-- Javascript files -->
+
 		<!-- jQuery -->
-		<script src="js/jquery.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+		<!-- countdown script -->
+		<script src="js/countdown.js"></script>
+
+		<script>
+		$(document).ready(function(){
+			$("#countdown").countdown({
+				date: "Fri, 12 Sept 2014 17:00:00",
+				format: "on"
+			},
+			
+			function() {
+				// callback function
+			});
+		});
+		</script>
+
 		<!-- Bootstrap JS -->
 		<script src="js/bootstrap.min.js"></script>
+
 		<!-- FlexSlider -->
 		<script src="js/jquery.flexslider-min.js"></script>
+
 		<!-- jQuery Anchor Plugin -->
 		<script src="js/jquery.anchor.js"></script>
+
 		<!-- Respond JS for IE8 -->
 		<script src="js/respond.min.js"></script>
+
 		<!-- HTML5 Support for IE -->
 		<script src="js/html5shiv.js"></script>
+
 		<!-- Custom JS -->
 		<script src="js/custom.js"></script>
 	</body>	
