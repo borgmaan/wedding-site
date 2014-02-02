@@ -113,7 +113,7 @@ hr{
 }
 
 .navbar-toggle:hover{
-	background: #7E7EE5 !important;
+	background: #7E7EE5;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -297,7 +297,7 @@ ul#countdown li p.timeRefSeconds {
 	text-align:center;
 	font-family: 'Droid Serif', serif;
 	font-size:40px;
-	color:444;
+	color:#444;
 	text-transform:uppercase;
 }
 
