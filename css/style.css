@@ -138,6 +138,8 @@ hr{
 
 .timer-area {
   background: transparent url('../img/brushed.png') left top;
+  width: 1476px;
+  margin: 0 auto;
   text-align: center;
   padding-top: 4em;
   margin-bottom: 4em;
