@@ -81,9 +81,10 @@ hr{
 
 /* Navigation */
 
+
 .navbar{
-	background: #4747DA;
-	border-color: #5475D9;
+	background: #5C85FF;
+	border-color: #4A6ACC;
 }
 
 .navbar .navbar-header .navbar-toggle span.menu{
@@ -100,7 +101,7 @@ hr{
 }
 
 .navbar-default .navbar-toggle {
-	border-color: #D32020;
+	border-color: #7E7EE5;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -108,15 +109,15 @@ hr{
 }
 
 .navbar-toggle{
-	background:#cb1e08;
+	background:#5C85FF;
 }
 
 .navbar-toggle:hover{
-	background:#b41a06 !important;
+	background: #7E7EE5;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color: #e9331b;
+	border-color: #7E7EE5;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -130,16 +131,62 @@ hr{
 
 .navbar-default .navbar-nav>li>a:hover{
 	color: #fff;
-	background:#5475D9;	
+	background:#4A6ACC;	
 }
+
+/* Countdown*/
+
+.timer-area {
+  background: transparent url('../img/brushed.png') left top;
+  text-align: center;
+  padding-top: 4em;
+  margin-bottom: 4em;
+}
+.timer-area h1 {
+  color: white;
+}
+
+ul#countdown li {
+  display: inline-block;
+  background: transparent url('../img/timer-piece.png') no-repeat left top;
+  width: 104px;
+  margin-bottom: 4em;
+  text-align: center;
+}
+ul#countdown li span {
+  font-size: 3em;
+  font-weight: bold;
+  color: #1f2225;
+  height: 108px;
+  line-height: 108px;
+  position: relative;
+}
+ul#countdown li span::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid white;
+  position: absolute;
+  top: 31px;
+}
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+  margin-top: 1em;
+  color: #909091;
+  text-transform: uppercase;
+  font-size: .875em;
+}
+
 
 /* Main */
 
 .main{
-	background:#ddd url('../img/mainback.jpg') repeat-y;
+	background: url('../img/mainback.jpg') no-repeat center;
 	padding-top:40px;
 	padding-bottom:40px;
-	border-bottom:1px solid #444;
+	/*border-bottom:1px solid #444;*/
 }
 
 .main .main-invite{
@@ -155,7 +202,7 @@ hr{
 .main .main-invite .signal{
 	line-height: 16px;
 	display:inline-block;
-	background: #4747DA;
+	background: #5C85FF;
 	padding: 5px;
 	border-radius: 25px;
 	color: #fff;
@@ -195,7 +242,7 @@ hr{
 }
 
 .main .main-date{
-	background: #4747DA;
+	background: #5C85FF;
 	padding-left: 10px;
 	padding-top: 50px;
 	padding-bottom: 40px;
@@ -250,7 +297,7 @@ hr{
 	text-align:center;
 	font-family: 'Droid Serif', serif;
 	font-size:40px;
-	color:444;
+	color:#444;
 	text-transform:uppercase;
 }
 
@@ -324,6 +371,24 @@ hr{
 	margin-top:10px;
 }
 
+/* Registrty */
+
+.reg{
+	text-align:center;
+}
+
+.reg p{
+	font-family: 'Droid Serif', serif;
+	font-style:italic;
+	font-size:15px;
+	line-height:30px;
+	color:#666;
+	text-align: center;
+	float: none;
+    margin: 0 auto;
+}
+
+
 /* RSVP */
 
 .rsvp .heart{
@@ -384,7 +449,7 @@ hr{
 	bottom: 0px;
 	right: 0px;
 	z-index: 104400;
-	background: #fa3031;
+	background: #5C85FF;
 }
 
 .totop a, .totop a:visited, .totop a:hover{
