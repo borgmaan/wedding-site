@@ -100,10 +100,10 @@ hr{
 	text-shadow:1px 1px 1px #555;
 }
 
-.navbar-default .navbar-toggle {
+/*.navbar-default .navbar-toggle {
 	border-color: #7E7EE5;
 }
-
+*/
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff;
 }
@@ -116,10 +116,10 @@ hr{
 	background: #7E7EE5;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+/*.navbar-default .navbar-collapse, .navbar-default .navbar-form {
 	border-color: #7E7EE5;
 }
-
+*/
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
 	padding-top:15px;
