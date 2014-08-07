@@ -426,6 +426,17 @@ ul#countdown li p.timeRefSeconds {
 	font-size:13px;
 }
 
+.gform {
+	font-family: 'Droid Serif', serif;
+	font-style:italic;
+	font-size:15px;
+	color:#666;
+}
+
+/*.ss-form-container {
+	background: #F5F5F5;
+}
+*/
 /* Footer */
 
 .footer{
